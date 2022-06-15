@@ -66,7 +66,7 @@ def main():
                 message = message + 'Certificate of ' + line + ' will expire in ' + str(result.days) +' days\n'
                 soonexp = soonexp + 1    
         else:
-            message = message + 'Certificate of ' + line + 'does not need an extension, days before the end ' + str(result.days) + '.\n'
+            message = message + 'Certificate of ' + line + ' does not need an extension, days before the end ' + str(result.days) + '.\n'
             normal = normal + 1
     message = 'A total of ' + str(l) + ' certificates have been verified\n' + str(exp) + ' certificates has expired\n' + str(soonexp) + ' certificates will run out soon\n' + str(normal) + ' - certificates are normal\n' + message
 
