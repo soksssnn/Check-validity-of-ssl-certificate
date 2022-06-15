@@ -1,4 +1,5 @@
-import os, subprocess, re, requests
+import os, subprocess, re
+import requests
 from datetime import datetime
 
 def check_file(path: str):
